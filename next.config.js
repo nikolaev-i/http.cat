@@ -5,6 +5,7 @@ const nextConfig = {
   output: 'standalone',
   experimental: {
     appDir: true,
+  },
   reactStrictMode: false,
   images: { unoptimized: true },
 };
