@@ -2,7 +2,9 @@
 // const nextTranslate = require('next-translate-plugin');
 
 const nextConfig = {
-  output: 'export',
+  output: 'standalone',
+  experimental: {
+    appDir: true,
   reactStrictMode: false,
   images: { unoptimized: true },
 };
