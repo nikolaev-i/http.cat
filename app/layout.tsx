@@ -1,4 +1,4 @@
-import { Metadata } from 'next/head';
+import  Metadata  from 'next/head';
 import Script from 'next/script';
 
 import './globals.css';
